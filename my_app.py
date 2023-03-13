@@ -2,7 +2,7 @@ import os
 from flask import Flask, render_template, request
 
 app=Flask(__name__,template_folder='template',
-                    static_url_path='', 
+                    static_url_path='/',
                     static_folder='static'
                     )
 app.config["IMAGE_UPLOADS"] = "/home/shahrukh/python-projects/flask-html-page/media"
